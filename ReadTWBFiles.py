@@ -23,15 +23,18 @@ def main():
         print('\t ** No arguments passed, pass argument -dd --download_dir \n')
         sys.exit()
     else:
-        put_all_workbook_fields_to_csv(args.download_dir)
+        save_all_workbook_fields_to_csv(args.download_dir)
 
 
 
 # get all fields from workbooks in the directory
-def put_all_workbook_fields_to_csv(workbooks_dir = '/Users/Workbooks/'):  
+def save_all_workbook_fields_to_csv(workbooks_dir = './'):
+    #workbooks_dir = '/Users/praveenktummala/tableau-internal/DQDashboards/workbooks/CarrierPerformanceTable'
+        
     field_list_file=workbooks_dir+'/all_workbook_fields.csv'
    
     print('Download Directory:{}'.format(workbooks_dir))
+    
     with codecs.open(field_list_file, 'w', encoding='utf-8') as output_file:
         # Write Header
         seperator=';'
