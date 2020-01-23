@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: TabluFields
+Version: 1.0
+Summary: Reads Tableau XML files from a specified directory for all used columns
+Home-page: https://github.com/tummap/tableau-dependency-checks/
+Author: Praveen Kumar
+Author-email: pkumar.tummala@gmail.com
+License: UNKNOWN
+Description: # tableau-dependency-checks
+        This is fetch all used fields from tableau workbooks to help identify dependencies for a specific column across all workbooks
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

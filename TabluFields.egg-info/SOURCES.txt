@@ -1,0 +1,7 @@
+setup.py
+ReadTWBFiles/ReadTWBFiles.py
+ReadTWBFiles/__init__.py
+TabluFields.egg-info/PKG-INFO
+TabluFields.egg-info/SOURCES.txt
+TabluFields.egg-info/dependency_links.txt
+TabluFields.egg-info/top_level.txt
