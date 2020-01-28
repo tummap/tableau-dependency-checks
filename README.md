@@ -4,6 +4,8 @@ This is a simple tool developed in order to fetch all used fields from tableau w
 Usage of this tool:
 
 ReadTWBFiles.py -dd "C:\Users\" 
-  -dd = download directory where you downloaded all twb(tableau workbook) files reside
+
+Options:
+dd = download directory where you downloaded all twb(tableau workbook) files reside
   
 
